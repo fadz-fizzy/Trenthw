@@ -1,0 +1,16 @@
+#section1{
+    height: 300px;
+}
+#section2{
+    height: 400px;
+}
+#section3{
+    height: 500px;
+}
+.para1{
+    height: 200px;
+    width: 200px;
+}
+.para2{
+    background-color: salmon;
+}
