@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name ="viewport" content="width=device-width">
+        <title>Q2Q3</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1>Reserve your table</h1>
+        <form action="">
+            <label for="resname">Restaurant Name:</label>
+                <input type="text" id="resname" name="Restaurant" value="Cookie Cutter Delicacies">
+                <br>
+                <br>
+            <label for="fname">Your Name:</label>
+                <input type="text" id="fname" name="name" placeholder="Your name here">
+                <br>
+                <br>
+            <label for="email">Your E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="xxxx@xxxx.xxx"></input>
+                <br>
+                <br> 
+            <label for="phone">Your Contact Number:</label> +65
+                <input type="tel" id="phone" name="phone" placeholder="#### ####"></input>
+                <br>
+                <br>
+            <label for="resdate">Reservation Date:</label>
+                <input type="date" id="resdate" name="resdate"></input>
+                <br>
+                <br>
+            <label for="restime">Reservation Time:</label>
+                <input type="time" id="restime" name="restime"></input>
+                <br>
+                <br>
+            <label for="#diners">Number of Diners:</label>
+                <input type="number" min="1" step="1" max="20" id="#diners" name="#diners" placeholder="1-10"></input>
+                <br>
+                <br>    
+            <label for="seating">Type of Seating:</label>                  
+                <select name = "dropdown">
+                    <option value = "Any">Any</option>
+                    <option value = "Outdoor" selected>Outdoor</option>
+                    <option value = "Indoor">Indoor</option>
+                </select>
+                <br>
+                <br>
+            <label for="allergies">Known Allergies:</label>
+                <input type="checkbox" value="fish" name="tick-fish" id="tick-fish">
+                    <label for="tick-fish">Fish</label>
+                &nbsp
+                <input type="checkbox" value="milk" name="tick-milk" id="tick-milk">
+                    <label for="tick-milk">Milk</label>
+                &nbsp
+                <input type="checkbox" value="shellfish" name="tick-shellfish" id="tick-shellfish">
+                    <label for="tick-shellfish">Shellfish</label>
+                <br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type="checkbox" value="tree" name="tick-tree" id="tick-tree">
+                    <label for="tick-tree">Tree Nuts</label>
+                &nbsp
+                <input type="checkbox" value="peanuts" name="tick-peanuts" id="tick-peanuts">
+                    <label for="tick-peanuts">Peanuts</label>
+                &nbsp
+                <input type="checkbox" value="wheat" name="tick-wheat" id="tick-wheat">
+                    <label for="tick-wheat">Wheat</label>
+                <br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type="checkbox" value="soybeans" name="tick-soybeans" id="tick-soybeans">
+                    <label for="tick-soybeans">Soybeans</label>
+                &nbsp&nbsp
+                <input type="checkbox" value="others" name="tick-others" id="tick-others">
+                    <label for="tick-others">Others:</label>
+                    <input type="text" id="others" name="others"></input>
+                <br>
+                <br>
+                <br>
+            <input type="submit">
+            <input type="reset">
+                
+                
+                           
+        </form>
+        
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
