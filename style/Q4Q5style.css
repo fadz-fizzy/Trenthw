@@ -1,26 +1,20 @@
 body{
     background-color: rgb(231, 235, 195);
- 
 }
-
 .box{
     width: 40vw; 
     height: 90vh;
 }
-
 .position1{
     top: 1vh;
     left: 3vw;
     position:absolute
 }
-
 .position2{ 
     top:1vh;
     right: 3vw;
     position: absolute;
-
 }
-
 .textbox{
     background-color: rgb(91, 241, 216);
     padding: 1vw;
