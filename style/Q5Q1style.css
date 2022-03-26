@@ -1,5 +1,6 @@
 body{
-    background: url('images/flowers.jpg');
+    background-image: url("/images/flowers.jpg");
+    /* background-color: black; */
     height: 100%;
   
 }
