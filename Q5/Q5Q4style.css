@@ -1,0 +1,12 @@
+.bg-img{
+    background-image: url("pic4.jpg");
+    height: 900px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    
+}
+.pos {
+    margin-left: 35%;
+}
