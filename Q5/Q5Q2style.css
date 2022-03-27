@@ -1,0 +1,27 @@
+body{
+    background-image: url("pic2.jpg");
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    background-color: cornsilk;
+    height: 450px;
+    width: 100vw;
+    opacity: 70%;
+}
+
+.pos{
+    top: 20vh;
+    position:sticky;
+}
+
+p{
+    font-size:60pt;
+}
+
+.textpos{
+    font-size:60pt;
+    text-align: center;
+    position:relative;
+}

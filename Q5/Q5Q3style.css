@@ -1,0 +1,10 @@
+#section-1{
+    background-image: url("pic3.jpg");
+    background-repeat: repeat;
+    height: 50vh;
+}
+#section-2{
+    background-image: url("pic3.jpg");
+    background-repeat: no-repeat;
+    height: 50vh;
+}
