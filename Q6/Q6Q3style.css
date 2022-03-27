@@ -1,0 +1,13 @@
+#parent-1{ 
+    height:100vh; 
+    background-color:lightgray; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    } 
+#child-1{ 
+    height:200px; 
+    width:500px; 
+    background-color:lightsalmon; 
+    
+    } 

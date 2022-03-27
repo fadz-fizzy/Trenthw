@@ -1,0 +1,29 @@
+#section-1{ 
+    height: 100vh;
+    background-color:lightgray; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+
+} 
+#side-1{ 
+    height:500px; 
+    width:500px; 
+    background-color:lightsalmon; 
+    
+} 
+
+#side-2{ 
+    height:500px; 
+    width:500px; 
+    background-color:salmon; 
+    background-image: url("pic4.jpg");
+    background-position: center;
+
+    } 
+.text{
+    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
