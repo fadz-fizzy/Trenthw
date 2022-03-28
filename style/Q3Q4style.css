@@ -1,5 +1,20 @@
-.section1 {
-    height: 100vh;
-    width: 100vw;
-    background-color: chocolate;
+#section-1{
+    height: 300px;
+}
+
+#section-2{
+    height: 400px;
+}
+
+#section-3{
+    height: 500px;
+}
+
+.para1{
+height: 200px;
+width: 200px;
+}
+
+.para2{
+    background-color: salmon;
 }
